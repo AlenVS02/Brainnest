@@ -6,19 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        * {
-            color: red;
-        }
-        p {
-            color: white;
-            background-color: black;
+        .nav-bar{
+            display: flex;
+            justify-content: space-around;
         }
     </style>
 </head>
 <body>
-    <div>Something</div>
+    <div class="grandparent">
+        Grandparent Somethinger
+        <div class="parent">
+            Something parent
+            <div class="child">
+                Child Something
+            </div>
+        </div>
+    </div>
     <div>I am also a div</div>
     <p>A parragraph, so you know</p>
+    <ul class="nav-bar">
+        <li>Home</li>
+        <li>
+            Contact
+        </li>
+        <li>About Us</li>
+    </ul>
     <span>I am a Span hi hi hi</span>
 </body>
 </html>
