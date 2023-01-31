@@ -98,3 +98,5 @@ function game() {
         alert('You lose! Fear the machine! The singularity is near.')
     }
 }
+
+game()
