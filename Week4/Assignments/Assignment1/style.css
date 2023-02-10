@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: bisque;
+}
+
+.title {
+    border-bottom: 5px solid rgb(155, 141, 124);
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.game .announcements #information {
+    font-size: 24px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.game #status {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.game .scores {
+    font-size: x-large;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.game .moves button img{
+    height: auto;
+    width: 250px;
+    border: 5px solid rgb(155, 141, 124);
+    border-radius: 2em;
+}
+
+
+button {
+    border: none;
+    width: auto;
+    appearance: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.moves :hover {
+    opacity: .75;
+}
+
+.game .moves {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
