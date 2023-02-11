@@ -66,9 +66,9 @@ function compute() {
             operationInProgress = false;
             break;
         case '-':
+            actualResult = prevValue - currValue;
             operationData.textContent = resultData.textContent;
             resultData.textContent = actualResult;
-            actualResult = prevValue - currValue;
             computationHistory = true;
             operationInProgress = false;
             break;
